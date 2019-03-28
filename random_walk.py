@@ -1,12 +1,11 @@
-"""Script to generate random walk data."""
-
+"""Generate random walk data."""
 from random import choice
 
 
 class RandomWalk():
     """Class to generate random walk data."""
 
-    def __init__(self, num_points=5000):
+    def __init__(self, num_points=50000):
         """Initialize random walk attributes."""
         self.num_points = num_points
 
